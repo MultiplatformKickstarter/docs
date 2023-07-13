@@ -1,12 +1,12 @@
 {
-  "name": "docsy-example-site",
+  "name": "multiplatform-kickstarter-docs",
   "version": "0.7.1",
-  "description": "Example site that uses Docsy theme for technical documentation.",
-  "repository": "github:google/docsy-example",
-  "homepage": "https://example.docsy.dev",
-  "author": "Docsy Authors",
+  "description": "Documentation to build your multiplatform application.",
+  "repository": "github:multiplatformkickstarter/docs",
+  "homepage": "https://docs.multiplatformkickstarter.com",
+  "author": "Ferran Pons",
   "license": "Apache-2.0",
-  "bugs": "https://github.com/google/docsy-example/issues",
+  "bugs": "https://github.com/multiplatformkickstarter/docs/issues",
   "spelling": "cSpell:ignore HTMLTEST precheck postbuild -",
   "scripts": {
     "_build": "npm run _hugo-dev",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
-    "hugo-extended": "0.113.0",
+    "hugo-extended": "0.115.2",
     "postcss-cli": "^10.1.0"
   }
 }
