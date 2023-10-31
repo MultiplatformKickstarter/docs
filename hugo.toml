@@ -85,6 +85,19 @@ description = "Documentation to help you to start building multiplatform apps as
 #time_format_default = "2006.01.02"
 #time_format_blog = "2006.01.02"
 
+[[menu.main]]
+  name = "multiplatformkickstarter.com"
+  weight = 1
+  url = "https://www.multiplatformkickstarter.com"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url = "https://blog.multiplatformkickstarter.com"
+[[menu.main]]
+  name = "Github"
+  weight = 3
+  url = "https://github.com/MultiplatformKickstarter/kmp-template"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser.attribute]
@@ -131,7 +144,7 @@ url_latest_version = "https://docs.multiplatformkickstarter.com"
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/MultiplatformKickstarter/docs"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/MultiplatformKickstarter"
+github_project_repo = "https://github.com/MultiplatformKickstarter/kmp-template"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -141,7 +154,7 @@ github_project_repo = "https://github.com/MultiplatformKickstarter"
 github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "d72aa9b2712488cc3"
+#gcs_engine_id = "d72aa9b2712488cc3"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
@@ -190,11 +203,11 @@ enable = false
   url = "https://multiplatformkickstarter.substack.com/"
   icon = "fa fa-envelope"
   desc = "Discussion and help from your fellow users"
-#[[params.links.user]]
-#  name ="Twitter"
-#  url = "https://example.org/twitter"
-#  icon = "fab fa-twitter"
-#  desc = "Follow us on Twitter to get the latest news!"
+[[params.links.user]]
+  name ="Twitter"
+  url = "https://twitter.com/mpkickstarter"
+  icon = "fab fa-twitter"
+  desc = "Follow us on Twitter to get the latest news!"
 #[[params.links.user]]
 #  name = "Stack Overflow"
 #  url = "https://example.org/stack"
