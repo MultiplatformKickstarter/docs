@@ -1,35 +1,49 @@
 ---
 title: Getting Started
-description: What does your user need to know to try your project?
+description: Simplify cross-platform app development with Multiplatform Kickstarter
 categories: [Examples, Placeholders]
 tags: [test, docs]
 weight: 2
 ---
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+Kotlin Multiplatform technology simplifies the development of cross-platform projects.
+The Kotlin applications will work on different operating systems like iOS, Android, macOS, Windows, Linux, watchOS, and others.
 {{% /pageinfo %}}
 
-Information in this section helps your user try your project themselves.
+One of the major Kotlin Multiplatform use cases is sharing code between mobile platforms.
+You can share application logic between iOS and Android apps and write platform-specific code only when you need to implement a native UI or work with platform APIs.
 
-* What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.
+Get to know Kotlin Multiplatform and create a mobile app that works on both Android and iOS by completing these steps:
 
-* Introductory “Hello World” example, if appropriate. More complex tutorials should live in the Tutorials section.
+1. [Set up an environment for cross-platform development](multiplatform-setup.md)
 
-Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.
+2. [Create your first app that works both on Android and iOS with the IDE](multiplatform-create-first-app.md)
 
-## Prerequisites
+3. [Update the user interface](multiplatform-update-ui.md)
 
-Are there any system requirements for using your project? What languages are supported (if any)? Do users need to already have any software or tools installed?
+4. [Add dependencies to your project](multiplatform-dependencies.md)
 
-## Installation
+5. [Share more logic](multiplatform-upgrade-app.md)
 
-Where can your user find your project code? How can they install it (binaries, installable package, build from source)? Are there multiple options/versions they can install and how should they choose the right one for them?
+6. [Wrap up your project](multiplatform-wrap-up.md)
 
-## Setup
+## Next step
 
-Is there any initial setup users need to do after installation to try your project?
+Start by setting up an environment for cross-platform development.
 
-## Try it out!
+**[Proceed to the next part](multiplatform-setup.md)**
 
-Can your users test their installation, for example by running a command or deploying a Hello World example?
+### See also
+
+If you want to convert your existing Android project into a cross-platform app, follow these steps to make it work on iOS:
+
+![First step](icon-1.svg){width=25}{type="joined"} [Set up an environment for cross-platform development](multiplatform-setup.md)
+
+![Second step](icon-2.svg){width=25}{type="joined"} [Complete this tutorial to make your Android app cross-platform](multiplatform-integrate-in-existing-app.md)
+
+## Join the community
+
+* ![Slack](slack.svg){width=25}{type="joined"} **Kotlin Slack**: get an [invitation](https://surveys.jetbrains.com/s3/kotlin-slack-sign-up) and join the [#multiplatform](https://kotlinlang.slack.com/archives/C3PQML5NU) channel
+* ![Stack Overflow](stackoverflow.svg){width=25}{type="joined"} **Stack Overflow**: subscribe to the ["kotlin-multiplatform" tag](https://stackoverflow.com/questions/tagged/kotlin-multiplatform)
+* ![YouTube](youtube.svg){width=25}{type="joined"} **Kotlin YouTube channel**: subscribe and watch videos about [Kotlin Multiplatform](https://www.youtube.com/playlist?list=PLlFc5cFwUnmy_oVc9YQzjasSNoAk4hk_C)

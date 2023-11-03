@@ -1,36 +1,45 @@
 ---
 title: Overview
-description: Here's where your user finds out if your project is for them.
+description: Multiplatform Kickstarter is a template that allows creating cross-platform apps for desktop, web, and mobile devices.
 weight: 1
 ---
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+The Kotlin Multiplatform technology is designed to simplify the development of cross-platform projects. It reduces time
+spent writing and maintaining the same code for [different platforms](#kotlin-multiplatform-use-cases)
+while retaining the flexibility and benefits of native programming.
 {{% /pageinfo %}}
 
+## Kotlin Multiplatform use cases
 
-The Overview is where your users find out about your project. Depending on the size of your docset, you can have a separate overview page (like this one) or put your overview contents in the Documentation landing page (like in the Docsy User Guide).
+### Android and iOS applications
 
-Try answering these questions for your user in this page:
+Sharing code between mobile platforms is a major Kotlin Multiplatform use cases. With Kotlin Multiplatform,
+you can build cross-platform mobile applications that share code between Android and iOS to implement networking,
+data storage and data validation, analytics, computations, and other application logic.
 
-## What is it?
+Check out the [Get started with Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-getting-started.html) and
+[Create a multiplatform app using Ktor and SQLDelight](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-ktor-sqldelight.html) tutorials,
+where you will create applications for Android and iOS that include a module with shared code for both platforms.
 
-Introduce your project, including what it does or lets you do, why you would use it, and its primary goal (and how it achieves it). This should be similar to your README description, though you can go into a little more detail here if you want.
+Thanks to [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/),
+a Kotlin-based declarative UI framework developed by JetBrains,
+you can also share UIs across Android and iOS to create fully cross-platform apps.
 
-## Why do I want it?
+### Desktop applications
 
-Help your user know if your project will help them. Useful information can include:
+Compose Multiplatform helps share UIs across desktop platforms like Windows, macOS, and Linux. Many applications,
+including the [JetBrains Toolbox app](https://blog.jetbrains.com/kotlin/2021/12/compose-multiplatform-toolbox-case-study/),
+have already adopted this approach.
 
-* **What is it good for?**: What types of problems does your project solve? What are the benefits of using it?
+Try this [Compose Multiplatform desktop application](https://github.com/JetBrains/compose-multiplatform-desktop-template#readme)
+template to create your own project with UIs shared among desktop platforms.
 
-* **What is it not good for?**: For example, point out situations that might intuitively seem suited for your project, but aren't for some reason. Also mention known limitations, scaling issues, or anything else that might let your users know if the project is not for them.
+## Code sharing between platforms
 
-* **What is it *not yet* good for?**: Highlight any useful features that are coming soon.
+Multiplatform Kickstarter allows you to maintain a single codebase of the application logic for different platforms and the Backend.
 
-## Where should I go next?
+## Get started
 
-Give your users next steps from the Overview. For example:
-
-* [Getting Started](/docs/getting-started/): Get started with $project
-* [Examples](/docs/examples/): Check out some example code!
-
+* Begin with the [Get started with Multiplatform Kickstarter](https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-getting-started.html) if you want to create iOS and Android applications with shared code
+* Explore the [Template code](https://github.com/MultiplatformKickstarter/kmp-template) if you want to know more about how it works.

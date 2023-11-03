@@ -28,7 +28,7 @@ cascade:
 
 {{% pageinfo %}}
 Multiplatform Kickstarter provides Kotlin multiplatform boilerplate templates
-to allow you to develop applications for Android, iOS and Web in a fast way.
+to allow you to develop applications for Android, iOS, Desktop and Web in a fast way.
 {{% /pageinfo %}}
 
 
